@@ -1,0 +1,75 @@
+2015-08-27 19:34:50 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'webtruck.implementos_veiculos' doesn't exist
+Stack Trace:
+#0 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'implementos_vei...', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('implementos_vei...', Array)
+#2 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Schema\CachedCollection->describe('implementos_vei...')
+#3 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\ORM\Table.php(498): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(192): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ImplementosVeic...')
+#7 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ImplementosVeic...')
+#8 [internal function]: Bake\Shell\BakeShell->all('implementos_vei...')
+#9 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\Shell.php(376): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\Shell->runCommand(Array, true)
+#11 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(171): Cake\Console\ShellDispatcher->_dispatch()
+#12 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(122): Cake\Console\ShellDispatcher->dispatch()
+#13 C:\xampp\htdocs\webtruck\bin\cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2015-10-08 22:40:43 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'webtruck.pneuses' doesn't exist
+Stack Trace:
+#0 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'pneuses', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('pneuses', Array)
+#2 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Schema\CachedCollection->describe('pneuses')
+#3 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\ORM\Table.php(498): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(456): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(276): Bake\Shell\Task\TemplateTask->_associations(Object(App\Model\Table\ImplementosPneusTable))
+#6 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(139): Bake\Shell\Task\TemplateTask->_loadController()
+#7 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\BakeShell.php(243): Bake\Shell\Task\TemplateTask->main('ImplementosPneu...')
+#8 [internal function]: Bake\Shell\BakeShell->all('implementosPneu...')
+#9 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\Shell.php(376): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\Shell->runCommand(Array, true)
+#11 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(171): Cake\Console\ShellDispatcher->_dispatch()
+#12 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(122): Cake\Console\ShellDispatcher->dispatch()
+#13 C:\xampp\htdocs\webtruck\bin\cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2015-10-08 22:41:04 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'webtruck.pneuses' doesn't exist
+Stack Trace:
+#0 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'pneuses', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('pneuses', Array)
+#2 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Schema\CachedCollection->describe('pneuses')
+#3 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\ORM\Table.php(498): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(456): Cake\ORM\Table->primaryKey()
+#5 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(276): Bake\Shell\Task\TemplateTask->_associations(Object(App\Model\Table\ImplementosPneusTable))
+#6 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(139): Bake\Shell\Task\TemplateTask->_loadController()
+#7 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\BakeShell.php(243): Bake\Shell\Task\TemplateTask->main('ImplementosPneu...')
+#8 [internal function]: Bake\Shell\BakeShell->all('implementos_pne...')
+#9 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\Shell.php(376): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\Shell->runCommand(Array, true)
+#11 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(171): Cake\Console\ShellDispatcher->_dispatch()
+#12 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(122): Cake\Console\ShellDispatcher->dispatch()
+#13 C:\xampp\htdocs\webtruck\bin\cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2015-10-12 18:27:01 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'webtruck.pneus_veiculos' doesn't exist
+Stack Trace:
+#0 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'pneus_veiculos', Array, Object(Cake\Database\Schema\Table))
+#1 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('pneus_veiculos', Array)
+#2 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Schema\CachedCollection->describe('pneus_veiculos')
+#3 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(461): Cake\ORM\Table->schema()
+#4 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(276): Bake\Shell\Task\TemplateTask->_associations(Object(App\Model\Table\VeiculosTable))
+#5 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(139): Bake\Shell\Task\TemplateTask->_loadController()
+#6 C:\xampp\htdocs\webtruck\vendor\cakephp\bake\src\Shell\BakeShell.php(243): Bake\Shell\Task\TemplateTask->main('Veiculos')
+#7 [internal function]: Bake\Shell\BakeShell->all('veiculos')
+#8 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\Shell.php(376): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(200): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(171): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\webtruck\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(122): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\webtruck\bin\cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
